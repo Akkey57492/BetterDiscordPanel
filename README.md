@@ -6,16 +6,16 @@
 </p>
 
 <!-- Title -->
-<h1 align="center">BetterDiscordPanel</h1>
+<h1 align="center">BetterDiscordPanel(日本語)</h1>
   <p align="center">
-    Discord Messaging Panel that allows you to message inside of a bot!
+    BotからDiscordへメッセージを簡単に送信できるパネル
     <br />
     <br />
-    <a href="https://github.com/SanjaySunil/BetterDiscordPanel/issues/new?assignees=&labels=Bug&template=bug_report.md&title=%5BBUG%5D">Report Bug</a>
+    <a href="https://github.com/SanjaySunil/BetterDiscordPanel/issues/new?assignees=&labels=Bug&template=bug_report.md&title=%5BBUG%5D">バグレポート</a>
     ·
-    <a href="https://github.com/SanjaySunil/BetterDiscordPanel/issues/new?assignees=&labels=Suggestions&template=suggestions.md&title=%5BSUGGESTION%5D">Request Feature</a>
+    <a href="https://github.com/SanjaySunil/BetterDiscordPanel/issues/new?assignees=&labels=Suggestions&template=suggestions.md&title=%5BSUGGESTION%5D">機能リクエスト</a>
     ·
-    <a href="https://discord.gg/9h822H3">Discord Server</a>
+    <a href="https://discord.gg/9h822H3">Discord公式サーバー</a>
   </p>
 </h1>
 <br/><br/>
@@ -34,72 +34,74 @@
 
 <!-- Information -->
 
-## What's BetterDiscordPanel?
+## BetterDiscordPanelとは
 
-<a href="https://github.com/betterdiscordpanel" target="_blank">BetterDiscordPanel</a> is a new panel that allows you to message, manage and gain statistics inside of your discord bot.
+<a href="https://betterdiscordpanel.tech/" target="_blank">BetterDiscordPanel</a> はBotからDiscordへメッセージを簡単に送信できる、DiscordBotClientに似たパネルです。
 <br/>
 
 <!-- Features -->
 
-## ✨ Features
+## ✨ 機能
 
-- 📊 **Discord Bot Statistics:** Gain full insights and details of your discord bot with server and bot information.
-- 💬 **Simple Messaging Interface:** BetterDiscordPanel allows you to easily message users and chat within servers using your discord bot. The panel also has a light and dark theme to suit your needs!
-- 🔒 **Security:** BetterDiscordPanel does not run on any servers and can be self hosted. All bot details are stored locally and is completely secure.
-- 👀 **Opensource:** BetterDiscordPanel is open source on GitHub so you can see all the code behind the project.
+- 📊 **Bot 統計:** Bot自体のTokenを利用して、Botに関する情報を取得できます。
+- 💬 **シンプルUI:** BetterDiscordPanelは、Botからユーザーへ簡単にメッセージを送信したり、サーバー内でチャットしたりできます。
+- 🔒 **セキュリティ:** 代理のホストは無く、完全にローカル環境で動作します。
+- 👀 **オープンソース:** 完全にオープンソース(ソースが公開されている)なため、すべてのソースコードを確認することができます。
 
 <br/>
 
 <!-- Getting Started -->
 
-## 🛠 Getting Started
+## 🛠 セットアップ
 
-This project does not run on any servers and can be self hosted. Simply open
-`index.html` to get started or use the control panel by opening `BetterDiscordPanel.cmd` and executing "W" for the web panel.
+BetterDiscordPanelは完全にローカルでも動作します。
+そのため、サーバーを構築または用意する必要はなく、代理のホストもありません。
+ダウンロード後、そのままindex.htmlを開いてください。
+(BetterDiscordPanel.cmdを開くと設定ができます)
 <br/>
 
 <!-- Installation -->
 
-### **Step 2:** Setup / Installation
+### **Step 2:** インストールと準備
 
-1. Clone the repository
+1. このレポジトリをクローン(git)
 
 ```sh
 git clone https://github.com/sanjaysunil/betterdiscordpanel
 ```
 
-> ⚠️ **NOTE**: The updater only works if you have cloned the repository. 
+> ⚠️ **NOTE**: アップデートツールはレポジトリをgitからクローンした場合にのみ動作します
 
-2. Open `login.html` or open `BetterDiscordPanel.cmd` to run the panel.
+2. login.htmlを開きログイン画面を開きます
 
-3. Login to your Discord Bot.
+3. BotTokenを使いログインします
 
-4. Start using BetterDiscordPanel!
+4. 使用
    <br/>
 
 <!-- ROADMAP -->
 
-## Roadmap
+## ロードマップ
 
-See the [open issues](https://github.com/sanjaysunil/betterdiscordpanel/issues) for a list of proposed features (and known issues).
+既知の不具合、または提案については [こちら](https://github.com/sanjaysunil/betterdiscordpanel/issues) を参照してください
 <br/>
 
 <!-- CONTRIBUTING -->
 
-## Contributing
+## 貢献
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+貢献は、オープンソースコミュニティを学び、刺激し、創造するための素晴らしい場所にするものです。 あなたが行うどんな貢献も、**大いに感謝されます**。
 
-View [translation guide](https://github.com/SanjaySunil/BetterDiscordPanel/blob/master/.github/TRANSLATION.md).
+View [翻訳ガイド](https://github.com/SanjaySunil/BetterDiscordPanel/blob/master/.github/TRANSLATION.md).
 
-View [contribution guide](https://github.com/SanjaySunil/BetterDiscordPanel/blob/master/.github/CONTRIBUTION.md).
+View [貢献ガイド](https://github.com/SanjaySunil/BetterDiscordPanel/blob/master/.github/CONTRIBUTION.md).
 <br/>
 
-## Supporters/Contributors
+## サポーター / 寄稿者
 
-### Translators:
+### 翻訳者:
 
-| Author                                                | Language  |
+| 翻訳者                                                | 言語  |
 | ----------------------------------------------------- | --------- |
 | [GreepTheSheep](https://github.com/GreepTheSheep)     | French    |
 | [Marijn2341](https://github.com/Marijn2341)           | Dutch     |
@@ -115,7 +117,7 @@ View [contribution guide](https://github.com/SanjaySunil/BetterDiscordPanel/blob
 [![Forkers repo roster for @sanjaysunil/betterdiscordpanel](https://reporoster.com/forks/sanjaysunil/betterdiscordpanel)](https://github.com/sanjaysunil/betterdiscordpanel/network/members)
 <br/>
 
-### Built With
+### ビルド
 
 - [Discord.js](https://github.com/discordjs/discord.js)
 - [jQuery](https://jquery.com)
@@ -125,3 +127,9 @@ View [contribution guide](https://github.com/SanjaySunil/BetterDiscordPanel/blob
 Copyright © 2021 Sanjay Sunil (sanjaysunil@protonmail.com)
 
 Distributed under the GNU General Public License v3.0. See `LICENSE` for more information.
+
+## License(日本語)
+
+Copyright © 2021 Sanjay Sunil (sanjaysunil@protonmail.com)
+
+GNU General Public License v3.0で配布されており、LICENSEファイルで詳細を確認できます。
