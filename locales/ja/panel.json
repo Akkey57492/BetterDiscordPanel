@@ -1,0 +1,41 @@
+{
+    "welcome": "こんにちは",
+    "select_option": "実行するオプションを選択してください。",
+
+    "start_web": "WEB - BetterDiscordPanel",
+    "start_desktop": "APP - BetterDiscordPanel",
+
+    "support": "サポート",
+    "settings": "設定",
+    "update": "アップデートを確認",
+    "language": "言語",
+    "go_back": "戻る",
+    "done": "完了",
+    "exit": "閉じる",
+
+    "discordserver": "Discord Server",
+    "submit_issue": "バグレポートまたは、提案を行う",
+
+    "betterdiscordpanel_help":"デフォルトのブラウザでパネルを起動します",
+    "desktop_panel_help": "パネルのデスクトップアプリを起動します",
+    "settings_help": "パネルの設定を開きます",
+    "exit_help": "このスクリプトを閉じます",
+    "support_help": "パネルのサポートを取得します",
+    "update_help": "パネルを利用可能な最新のバージョンに更新します",
+    "language_help": "パネルの言語を選択してください",
+    "go_back_help": "選択画面へ戻ります",
+    "discord_help": "デフォルトのブラウザでサポートサーバーの招待リンクを開きます",
+    "issue_help": "githubでバグレポートまたは、提案を行う",
+    "get_help": "パネルのヘルプを取得します",
+
+    "check_installation": "BetterDiscordPanelが正しくインストールされているか確認してください",
+    "checking_failure": "システムチェックが失敗しました",
+    "checking_system": "パネルのシステムを確認しています",
+    "check_success": "システムチェックが正常に終了しました",
+    "updating": "パネルをアップデート中です",
+    "updating_failure": "パネルを更新できませんでした",
+    "check_index": "index.htmlの存在確認を行っています",
+    "check_main": "main.jsの存在確認を行っています",
+    "check_repo_download_method": "もう一度ダウンロードから再試行してください",
+    "booting": "パネルを起動中"
+}
