@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ja">
 
 <head>
 	<meta charset="utf-8" />
@@ -152,10 +152,10 @@
 											class="mdi mdi-chevron-down"></i>
 									</a>
 									<div class="dropdown-menu">
-										<a class="dropdown-item" onclick='setStatus("online")'>Online</a>
-										<a class="dropdown-item" onclick='setStatus("idle")'>Idle</a>
-										<a class="dropdown-item" onclick='setStatus("dnd")'>Do Not Disturb</a>
-										<a class="dropdown-item" onclick='setStatus("invisible")'>Invisible</a>
+										<a class="dropdown-item" onclick='setStatus("online")'>オンライン</a>
+										<a class="dropdown-item" onclick='setStatus("idle")'>退席中</a>
+										<a class="dropdown-item" onclick='setStatus("dnd")'>取り込み中</a>
+										<a class="dropdown-item" onclick='setStatus("invisible")'>オンライン状態を隠す</a>
 									</div>
 								</div>
 							</div>
@@ -265,10 +265,10 @@
 											class="mdi mdi-chevron-down"></i>
 									</a>
 									<div class="dropdown-menu">
-										<a class="dropdown-item" onclick='setStatus("online")'>Online</a>
-										<a class="dropdown-item" onclick='setStatus("idle")'>Idle</a>
-										<a class="dropdown-item" onclick='setStatus("dnd")'>Do Not Disturb</a>
-										<a class="dropdown-item" onclick='setStatus("invisible")'>Invisible</a>
+										<a class="dropdown-item" onclick='setStatus("online")'>オンライン</a>
+										<a class="dropdown-item" onclick='setStatus("idle")'>退席中</a>
+										<a class="dropdown-item" onclick='setStatus("dnd")'>取り込み中</a>
+										<a class="dropdown-item" onclick='setStatus("invisible")'>オンライン状態を隠す</a>
 									</div>
 								</div>
 							</div>
@@ -291,7 +291,7 @@
                                             data-parent="#profile-setting-accordion">
                                             <div class="card-body">
                                                 <div>
-                                                    <p class="text-muted mb-1">Name</p>
+                                                    <p class="text-muted mb-1">名前</p>
                                                     <input class="font-size-14" id="changeUsername"></input><button onclick="changeBotUsername()">SAVE</button>
                                                 </div>
                                             </div>
@@ -363,11 +363,11 @@
 												</div>
 												<div class="py-3 border-top">
 													<h5 class="font-size-13 mb-0"><a href="https://betterdiscordpanel.tech" target="_blank"
-															class="text-body d-block">Website</a></h5>
+															class="text-body d-block">公式サイト</a></h5>
 												</div>
 												<div class="py-3 border-top">
 													<h5 class="font-size-13 mb-0"><a href="https://sanjaysunil.gitbook.io/betterdiscordpanel"
-															target="_blank" class="text-body d-block">Documentation</a></h5>
+															target="_blank" class="text-body d-block">ドキュメント</a></h5>
 												</div>
 												<div class="py-3 border-top">
 													<h5 class="font-size-13 mb-0"><a href="https://discord.gg/5SAVPAj" target="_blank"
@@ -376,7 +376,7 @@
 												<div class="py-3 border-top">
 													<h5 class="font-size-13 mb-0"><a
 															href="https://github.com/SanjaySunil/BetterDiscordPanel/blob/master/LICENSE"
-															target="_blank" class="text-body d-block">License</a></h5>
+															target="_blank" class="text-body d-block">ライセンス</a></h5>
 												</div>
 											</div>
 										</div>
@@ -445,9 +445,9 @@
 										<table cellpadding="0" cellspacing="0" border="0">
 											<thead>
 												<tr>
-													<th>General</th>
-													<th>Text</th>
-													<th>Voice</th>
+													<th>一般</th>
+													<th>テキスト</th>
+													<th>ボイス</th>
 												</tr>
 											</thead>
 										</table>
@@ -458,67 +458,67 @@
 												<tr>
 													<td>
 														<input type="checkbox" id="administrator" class="input" value="8" />
-														<label for="administrator">Administrator</label>
+														<label for="administrator">管理者</label>
 													</td>
 													<td>
 														<input type="checkbox" id="send_messages" class="permission input" value="2048" />
-														<label for="send_messages">Send messages</label>
+														<label for="send_messages">メッセージ送信</label>
 													</td>
 													<td>
 														<input type="checkbox" id="connect" class="permission input" value="1048576" />
-														<label for="connect">Connect</label>
+														<label for="connect">接続</label>
 													</td>
 												</tr>
 												<tr>
 													<td>
 														<input type="checkbox" id="view_audit_log" class="permission input" value="128" />
-														<label for="view_audit_log">View audit log</label>
+														<label for="view_audit_log">監査ログを見る</label>
 													</td>
 													<td>
 														<input type="checkbox" id="send_tts_messages" class="permission input" value="4096" />
-														<label for="send_tts_messages">Send TTS messages</label>
+														<label for="send_tts_messages">TTSメッセージ送信</label>
 													</td>
 													<td>
 														<input type="checkbox" id="speak" class="permission input" value="2097152" />
-														<label for="speak">Speak</label>
+														<label for="speak">発言</label>
 													</td>
 												</tr>
 												<tr>
 													<td>
 														<input type="checkbox" id="view-server-insights" class="permission input" value="524288" />
-														<label for="view-server-insights">View Server Insights</label>
+														<label for="view-server-insights">サーバーインサイトを見る</label>
 													</td>
 													<td>
 														<input type="checkbox" id="manage_messages" class="permission input" value="8192" />
-														<label for="manage_messages">Manage messages</label>
+														<label for="manage_messages">メッセージ管理</label>
 													</td>
 													<td>
 														<input type="checkbox" id="video" class="permission input" value="512" />
-														<label for="video">Video</label>
+														<label for="video">ビデオ</label>
 													</td>
 												</tr>
 												<tr>
 													<td>
 														<input type="checkbox" id="manage_guild" class="permission input" value="32" />
-														<label for="manage_guild">Manage server</label>
+														<label for="manage_guild">サーバー管理</label>
 													</td>
 													<td>
 														<input type="checkbox" id="embed_links" class="permission input" value="16384" />
-														<label for="embed_links">Embed links</label>
+														<label for="embed_links">埋め込みリンク</label>
 													</td>
 													<td>
 														<input type="checkbox" id="mute_members" class="permission input" value="4194304" />
-														<label for="mute_members">Mute members</label>
+														<label for="mute_members">メンバーミュート</label>
 													</td>
 												</tr>
 												<tr>
 													<td>
 														<input type="checkbox" id="manage_roles" class="permission input" value="268435456" />
-														<label for="manage_roles">Manage roles</label>
+														<label for="manage_roles">ロール管理</label>
 													</td>
 													<td>
 														<input type="checkbox" id="attach_files" class="permission input" value="32768" />
-														<label for="attach_files">Attach files</label>
+														<label for="attach_files">ファイル送信</label>
 													</td>
 													<td>
 														<input type="checkbox" id="deafen_members" class="permission input" value="8388608" />
@@ -528,25 +528,25 @@
 												<tr>
 													<td>
 														<input type="checkbox" id="manage_channels" class="permission input" value="16" />
-														<label for="manage_channels">Manage channels</label>
+														<label for="manage_channels">チャンネル管理</label>
 													</td>
 													<td>
 														<input type="checkbox" id="read_message_history" class="permission input" value="65536" />
-														<label for="read_message_history">Read message history</label>
+														<label for="read_message_history">メッセージ履歴を確認</label>
 													</td>
 													<td>
 														<input type="checkbox" id="move_members" class="permission input" value="16777216" />
-														<label for="move_members">Move members</label>
+														<label for="move_members">メンバー移動</label>
 													</td>
 												</tr>
 												<tr>
 													<td>
 														<input type="checkbox" id="kick_members" class="permission input" value="2" />
-														<label for="kick_members">Kick members</label>
+														<label for="kick_members">メンバーKick</label>
 													</td>
 													<td>
 														<input type="checkbox" id="mention_everyone" class="permission input" value="131072" />
-														<label for="mention_everyone">Mention everyone</label>
+														<label for="mention_everyone">everyoneメンション</label>
 													</td>
 													<td>
 														<input type="checkbox" id="use_vad" class="permission input" value="33554432" />
@@ -556,55 +556,55 @@
 												<tr>
 													<td>
 														<input type="checkbox" id="ban_members" class="permission input" value="4" />
-														<label for="ban_members">Ban members</label>
+														<label for="ban_members">メンバーBan</label>
 													</td>
 													<td>
 														<input type="checkbox" id="use_external_emojis" class="permission input" value="262144" />
-														<label for="use_external_emojis">Use external emojis</label>
+														<label for="use_external_emojis">外部サーバーの絵文字を使用</label>
 													</td>
 													<td>
 														<input type="checkbox" id="priority_speaker" class="permission input" value="256" />
-														<label for="priority_speaker">Use priority speaker</label>
+														<label for="priority_speaker">優先スピーカー</label>
 													</td>
 												</tr>
 												<tr>
 													<td>
 														<input type="checkbox" id="create_instant_invite" class="permission input" value="1" />
-														<label for="create_instant_invite">Create instant invite</label>
+														<label for="create_instant_invite">招待リンクの発行</label>
 													</td>
 													<td>
 														<input type="checkbox" id="add_reactions" class="permission input" value="64" />
-														<label for="add_reactions">Add reactions</label>
+														<label for="add_reactions">リアクションの追加</label>
 													</td>
 												</tr>
 												<tr>
 													<td>
 														<input type="checkbox" id="change_nickname" class="permission input" value="67108864" />
-														<label for="change_nickname">Change nickname</label>
+														<label for="change_nickname">ニックネーム変更</label>
 													</td>
 												</tr>
 												<tr>
 													<td>
 														<input type="checkbox" id="manage_nicknames" class="permission input" value="134217728" />
-														<label for="manage_nicknames">Manage nicknames</label>
+														<label for="manage_nicknames">ニックネーム管理</label>
 													</td>
 												</tr>
 												<tr>
 													<td>
 														<input type="checkbox" id="manage_emojis" class="permission input" value="1073741824" />
-														<label for="manage_emojis">Manage emojis</label>
+														<label for="manage_emojis">絵文字管理</label>
 													</td>
 												</tr>
 												<tr>
 													<td>
 														<input type="checkbox" id="manage_webhooks" class="permission input" value="536870912" />
-														<label for="manage_webhooks">Manage webhooks</label>
+														<label for="manage_webhooks">Webhook管理</label>
 													</td>
 												</tr>
 												<tr>
 													<td>
 														<input type="checkbox" id="view_channel" class="permission input" value="1024" />
-														<label for="view_channel">View channels</label>
+														<label for="view_channel">チャンネル閲覧</label>
 													</td>
 												</tr>
 											</tbody>
@@ -616,7 +616,7 @@
 										<p>Authorization link:
 											<code><a href="" id="result" target="_blank"></a></code>
 										</p>
-										<p>Permissions Integer: <code id="permissionsInteger"></code></p>
+										<p>権限コード: <code id="permissionsInteger"></code></p>
 									</div>
 								</div>
 							</ul>
